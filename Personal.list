@@ -1,8 +1,8 @@
-# > Airport
-DOMAIN-KEYWOR,dlercloud
-DOMAIN-KEYWOR,seeu
-DOMAIN-KEYWOR,glados
-DOMAIN-KEYWOR,flycloud
-DOMAIN-KEYWOR,gist
+# > Others
+DOMAIN-KEYWORD,dlercloud
+DOMAIN-KEYWORD,seeu
+DOMAIN-KEYWORD,glados
+DOMAIN-KEYWORD,flycloud
+DOMAIN-SUFFIX,gist.github.com
 DOMAIN-SUFFIX,glados.network
 DOMAIN-SUFFIX,net-door.cc
