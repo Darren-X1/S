@@ -1,3 +1,6 @@
+# > Proxy
+PROCESS-NAME,v2ray
+PROCESS-NAME,ss-local
 # > BT等下载
 DOMAIN-KEYWORD,announce
 DOMAIN-KEYWORD,torrent
@@ -7,6 +10,7 @@ URL-REGEX,(Subject|HELO|SMTP)
 URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
 URL-REGEX,(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com)
 URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|sandai|Thunder|XLLiveUD|xunlei)(..+)?
+# > Download
 PROCESS-NAME,aria2c
 PROCESS-NAME,fdm
 PROCESS-NAME,Folx
