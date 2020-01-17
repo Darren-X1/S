@@ -82,12 +82,6 @@ IP-CIDR,1.1.1.1/24,DIRECT,no-resolve
 GEOIP,CN,DIRECT
 FINAL,♳Final,dns-failed
 
-[Snell Server]
-interface = 0.0.0.0
-port = 5886
-psk = bwh123456
-obfs = off
-
 [SSID Setting]
 "X-iPhone" cellular-mode=true
 
