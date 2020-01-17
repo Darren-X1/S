@@ -1,6 +1,6 @@
 机场分享
 ===
-## DlerCloud · [全局代理访问](https://dleris.best/auth/register?affid=56105) · [国内访问](https://dleris.best/auth/register?affid=56105)
+## DlerCloud · [全局代理访问](https://dleris.best/auth/register?affid=56105) · [大陆访问](https://dleris.best/auth/register?affid=56105)
 ### 套餐介绍
 | Pass Bronze  |  Pass Silver  | Pass Gold | Pass Platinum | Pass Diamond |
 | :---------: | :--------:| :--------: | :----------: | :----------: |
@@ -9,7 +9,7 @@
 | 同时在线 / IP：2 <br/>高速数据传输 / GiB / 月：100 <br/>低速数据传输 / GiB / 月：∞ | 同时在线 / IP：3<br/> 高速数据传输 / GiB / 月：240<br/> 低速数据传输 / GiB / 月：∞ | 同时在线 / IP：4<br/> 高速数据传输 / GiB / 月：400<br/> 低速数据传输 / GiB / 月：∞ | 同时在线 / IP：5<br/> 高速数据传输 / GiB / 月：800<br/> 低速数据传输 / GiB / 月：∞ | 同时在线 / IP：6<br/> 高速数据传输 / GiB / 月：1200<br/> 低速数据传输 / GiB / 月：∞ |
 | 包含：SS 、 Vmess 协议节点 | 包含：SS 、 Vmess 协议节点 | 包含：SS 、 SSR 、 Vmess 协议节点 | 包含：SS 、 SSR 、 Vmess 协议节点 | 包含：SS 、 SSR 、 Vmess 协议节点 |
 
-## flycloud · [地址发布页](https://flycloud.gg) · [国内访问](https://www.flycloud.fun/auth/register?code=ConB)
+## flycloud · [地址发布页](https://flycloud.gg) · [大陆访问](https://www.flycloud.fun/auth/register?code=ConB)
 ### 套餐介绍
 |                          标准版VIP1                          |                          高级版VIP2                          |                          加强版VIP3                          |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -18,7 +18,7 @@
 
 * 套餐有效期内每月流量不重置，例如你买3个月VIP2，总流量就是900G
 
-## GLaDOS · [全局代理访问](https://glados.network/) · [国内访问](https://github.com/glados-network)
+## GLaDOS · [全局代理访问](https://glados.network/) · [大陆访问](https://github.com/glados-network)
 ### 套餐介绍
 |                       Basic - 个人用户                       |                        Pro - 专业用户                        |                       Team - 小型团队                        |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
