@@ -1,6 +1,6 @@
 /*
 Dler Cloud 签到脚本
-
+https://raw.githubusercontent.com/Darren-X1/S/master/dlercloud.js
 说明：登录 https://dleris.best/ 获取 cookie，cookie有效期为 31 天，失效后需重新获取
 
 QX 1.0.5+ :
