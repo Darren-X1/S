@@ -1,5 +1,5 @@
 #!name= General
-#!desc= General：自定义surge开头配置
+#!desc= General&Replica：自定义surge开头配置
 
 [General]
 bypass-system = true
@@ -32,3 +32,9 @@ network-framework = false
 show-error-page-for-reject = true
 tls-provider = default
 use-default-policy-if-wifi-not-primary = false
+
+[Replica]
+hide-apple-request = true
+hide-crashlytics-request = true
+hide-udp = false
+keyword-filter-type = false
