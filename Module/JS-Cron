@@ -1,5 +1,5 @@
 #!name=JS-Cron
-#!desc=JS-Cron：定时任务，需搭配cookies脚本获取cookies后才能签到，括号内为对应的hostname，可根据自己需求修改
+#!desc=JS-Cron：自用，定时任务，需搭配cookies脚本获取cookies后才能签到，括号内为对应的hostname，可根据自己需求修改
 
 [Script]
 # > JD签到(api.m.jd.com)
