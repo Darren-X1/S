@@ -66,24 +66,24 @@ Weibo = requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha
 Weibo = requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js,type=http-response,pattern=^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua)
 
 # > Netflix评分(ios.prod.ftl.netflix.com)
-nf_rating.js = script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js,type=http-request,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D
-nf_rating.js = requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js,type=http-response,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D
+nf_rating = script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js,type=http-request,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D
+nf_rating = requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js,type=http-response,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D
 
 # > JD比价(api.m.jd.com)
-jd_price.js = requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js,type=http-response,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig)
+jd_price = requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js,type=http-response,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig)
 
 # > Taobao比价(amdc.m.taobao.com, trade-acs.m.taobao.com)
-// tb_price.js = requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js,type=http-response,pattern=^http://amdc\.m\.taobao\.com/amdc/mobileDispatch
-// tb_price.js = requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js,type=http-response,pattern=^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail
+tb_price = requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js,type=http-request,pattern=^http://.+/amdc/mobileDispatch
+tb_price = requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js,type=http-response,pattern=^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail
 
 # > WeChat去广告(mp.weixin.qq.com)
-WeChat.js = script-path=https://Choler.github.io/Surge/Script/WeChat.js,type=http-request,pattern=^https://mp\.weixin\.qq\.com/mp/getappmsgad
+WeChat = script-path=https://Choler.github.io/Surge/Script/WeChat.js,type=http-request,pattern=^https://mp\.weixin\.qq\.com/mp/getappmsgad
 
 # > Toutiao(*.snssdk.com)
-Toutiao.js = requires-body=1,max-size=-1,script-path=https://Choler.github.io/Surge/Script/Toutiao.js,type=http-response,pattern=^https?://[\s\S]*\.snssdk\.com/api/news/feed/v88/
+Toutiao = requires-body=1,max-size=-1,script-path=https://Choler.github.io/Surge/Script/Toutiao.js,type=http-response,pattern=^https?://[\s\S]*\.snssdk\.com/api/news/feed/v88/
 
 # > QQ News(r.inews.qq.com)
-QQNews.js = requires-body=1,max-size=-1,script-path=https://Choler.github.io/Surge/Script/QQNews.js,type=http-response,pattern=https://r\.inews\.qq.com\/get(QQNewsUnreadList|RecommendList)
+QQNews = requires-body=1,max-size=-1,script-path=https://Choler.github.io/Surge/Script/QQNews.js,type=http-response,pattern=https://r\.inews\.qq.com\/get(QQNewsUnreadList|RecommendList)
 
 [MITM]
 hostname = %APPEND% *.googlevideo.com, *.youtube.com, youtubei.googleapis.com, api.zhihu.com, www.zhihu.com, www.bilibili.com, api.bilibili.com, app.bilibili.com, api.live.bilibili.com, *.tiktokv.com, *.byteoversea.com, *.musical.ly, *.snssdk.com, *.amemv.com, api.gamer.com.tw, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, api.m.jd.com, amdc.m.taobao.com, trade-acs.m.taobao.com, ios.prod.ftl.netflix.com, mp.weixin.qq.com, r.inews.qq.com
