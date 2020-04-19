@@ -1,5 +1,5 @@
 #!name=JS-Cookies
-#!desc=JS-Cookie：Cookie获取脚本，搭配签到脚本使用，获取好cookies后可禁用，括号内为对应的hostname，可根据自己需求修改
+#!desc=JS-Cookie：Cookie获取脚本，搭配签到脚本使用，获取好cookies后可禁用，「括号内为对应的hostname，可根据自己需求修改」
 
 [Script]
 # > JD签到(api.m.jd.com) Safari浏览器打开登录 https://bean.m.jd.com ,点击签到并且出现签到日历后, 如果通知获得cookie成功
