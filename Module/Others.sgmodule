@@ -1,5 +1,5 @@
 #!name=RemoveAds&Unlock
-#!desc=RemoveAds&Unlock：去广告、解锁等规则和脚本，「括号内为对应的hostname，可根据自己需求修改」
+#!desc=RemoveAds&Unlock：去广告、解锁等规则和脚本，其余去广告脚本见“Others.sgmodule”，「括号内为对应的hostname，可根据自己需求修改」
 
 [Rule]
 # > YouTube去广告(*.googlevideo.com, *.youtube.com, youtubei.googleapis.com)
