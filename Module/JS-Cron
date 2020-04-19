@@ -11,7 +11,7 @@ tieba = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/
 10000 = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js,type=cron,cronexp=3 0 * * *
 
 # > MeiTuan签到(i.meituan.com) 打开 APP 手动签到一次: 访问下右下角我>签到
-meituan= script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js,type=cron,cronexp=10 0 0 * * *
+meituan= script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js,type=cron,cronexp=4 0 * * *
 
 [MITM]
 hostname = %APPEND% api.m.jd.com, tieba.baidu.com, wapside.189.cn:9001, i.meituan.com
