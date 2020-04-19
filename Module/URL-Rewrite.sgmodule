@@ -1,5 +1,5 @@
 #!name=Url Rewrite
-#!desc=Url Rewrite：包含链接跳转、去广告等Rewrite规则
+#!desc=Url Rewrite：包含链接跳转、去广告等Rewrite规则，其余去广告脚本见“Others.sgmodule”
 
 
 [URL Rewrite]
