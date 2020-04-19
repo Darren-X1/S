@@ -1,6 +1,5 @@
-#!name=JS-Cron
-#!desc=JS-Cron：自用，定时任务，需搭配cookies脚本获取cookies后才能签到，括号内为对应的hostname，可根据自己需求修改
-
+#!name=JS-Cron for UncleWang
+#!desc=JS-Cron for UncleWang：自用，仅收集自己需要的签到脚本
 [Script]
 # > JD签到(api.m.jd.com)
 JD_DailyBonus = type=cron,cronexp="1 0 * * *",script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
