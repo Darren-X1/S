@@ -1,1 +1,47 @@
-1
+#!name=General_MAC
+#!desc=General&Replica：自定义surge MAC版开头配置，此为个人配置，切勿直接安装，可复制到本地module中修改使用
+#!system=mac
+
+[General]
+dns-server = 119.29.29.29, 119.28.28.28, 1.2.4.8, system
+
+read-etc-hosts = true
+
+proxy-test-url = http://cp.cloudflare.com/generate_204
+internet-test-url = http://www.aliyun.com
+test-timeout = 5
+
+tls-provider = default
+
+ipv6 = false
+
+http-listen = 0.0.0.0:8888
+socks5-listen = 0.0.0.0:8889
+
+external-controller-access = DaRrEn@0.0.0.0:9999
+
+compatibility-mode = 0
+
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8, localhost, *.local, *.crashlytics.com
+
+exclude-simple-hostnames = true
+
+use-default-policy-if-wifi-not-primary = true
+
+loglevel = notify
+
+show-error-page-for-reject = true
+
+always-real-ip = *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com
+hijack-dns = 8.8.8.8:53, 8.8.4.4:53
+# force-http-engine-hosts = 8.8.8.8
+tun-excluded-routes = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12
+tun-included-routes = 192.168.1.12/32
+
+[Replica]
+hide-apple-request = 1
+hide-crash-reporter-request = 1
+hide-udp = 0
+keyword-filter-type = none
+keyword-filter = (null)
+
