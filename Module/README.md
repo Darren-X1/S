@@ -1,6 +1,6 @@
 Surge Module - 本人和好友使用，基于[lhie1](https://github.com/lhie1/Rules)规则整理修改而来
 ***
-* General.sgmodule：自定义surge基础配置，可根据复制内容到本地Module修改使用     [长按复制链接](https://raw.githubusercontent.com/Darren-X1/S/master/Module/General.sgmodule)
+* General.sgmodule：自定义surge基础配置，可根据复制内容到本地Module修改使用     [长按复制链接iOS](https://raw.githubusercontent.com/Darren-X1/S/master/Module/General_iOS.sgmodule) [长按复制链接MAC](https://raw.githubusercontent.com/Darren-X1/S/master/Module/General_MAC.sgmodule)
 
 * URL-Rewrite.sgmodule：含链接跳转、去广告等Rewrite规则，其余去广告脚本见“Others.sgmodule”     [长按复制链接](https://raw.githubusercontent.com/Darren-X1/S/master/Module/URL-Rewrite.sgmodule)
 
