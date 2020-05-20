@@ -1,5 +1,5 @@
 #!name=General_iOS
-#!desc=General&Replica：自定义surge开头配置，此为个人配置，切勿直接安装，可复制到本地module中修改使用
+#!desc=General&Replica：自定义surge iOS版开头配置，此为个人配置，切勿直接安装，可复制到本地module中修改使用
 #!system=ios
 
 [General]
