@@ -8,4 +8,4 @@ JD_DailyBonus = type=cron,cronexp="1 0 * * *",script-path=https://raw.githubuser
 tieba = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js,type=cron,cronexp=2 0 * * *
 
 [MITM]
-hostname = %APPEND% api.m.jd.com, tieba.baidu.com, wapside.189.cn:9001
+hostname = %APPEND% api.m.jd.com, tieba.baidu.com
