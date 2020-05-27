@@ -3,7 +3,7 @@
 [Script]
 # > JD签到(api.m.jd.com)
 JD_DailyBonus = type=cron,cronexp="1 0 * * *",script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-JD_DailyBonus = type=cron,cronexp="50 11 * * *",script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+JD_DailyBonus = type=cron,cronexp="50 22 * * *",script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
 # > tieba签到(tieba.baidu.com)
 tieba = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js,type=cron,cronexp=2 0 * * *
