@@ -4,7 +4,7 @@
 # > JD签到(api.m.jd.com)
 JD_DailyBonus = type=cron,cronexp="1 0 * * *",script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 JD_DailyBonus = type=cron,cronexp="30 23 * * *",script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-JD_618_boom = type=cron,cronexp="30 23 * * *",script-path=https://raw.githubusercontent.com/Darren-X1/S/master/jd618-boom.js
+JD_618_boom = type=cron,cronexp="00 16 * * *",script-path=https://raw.githubusercontent.com/Darren-X1/S/master/jd618-boom.js
 # > tieba签到(tieba.baidu.com)
 tieba = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js,type=cron,cronexp=01 2 0 * * *
 tieba = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js,type=cron,cronexp=11 2 0 * * *
