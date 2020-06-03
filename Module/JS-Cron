@@ -5,7 +5,9 @@
 JD_DailyBonus = type=cron,cronexp="1 0,23 * * *",script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
 # > JD 618 (api.m.jd.com)
-JD618 = type=cron,cronexp="10,20,30,40,50 0,09 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.adapt.js,wake-system=true,timeout=600
+JD618 = type=cron,cronexp="10,20,30,40,50 0 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.adapt.js,wake-system=true,timeout=600
+JD618 = type=cron,cronexp="10,20,30,40,50 10 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.adapt.js,wake-system=true,timeout=600
+
 JD618.Boom = type=cron,cronexp="0 10,12,18,20 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.boom.js,wake-system=true
 
 # > tieba签到 (tieba.baidu.com)
