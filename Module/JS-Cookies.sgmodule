@@ -5,26 +5,11 @@
 # > JD签到(api.m.jd.com) Safari浏览器打开登录 https://bean.m.jd.com ,点击签到并且出现签到日历后, 如果通知获得cookie成功
 JD_DailyBonus = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
-# > B站签到(manga.bilibili.com) When Bilibili Manga app is opened, click "My", If notification gets cookie success
-Manga = type=http-request,pattern=https:\/\/manga\.bilibili\.com\/.*\.User\/GetWallet,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
-
-# > 52PoJie签到(www.52pojie.cn) Need to manually log in to the https://www.52pojie.cn/home.php?mod=space checkin to get cookie
-Get-Cookie = type=http-request,pattern=https:\/\/www\.52pojie\.cn\/home\.php\?,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/52pojieDailyBonus/Get-Cookie.js
-
-# > iQIYI签到(*.iqiyi.com) When iQiyi app is opened, click "My"
-iQIYI_GetCookie = type=http-request,pattern=https?:\/\/.*\.iqiyi\.com\/.*authcookie=,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/iQIYI-DailyBonus/iQIYI_GetCookie.js
-
 # > tieba签到(tieba.baidu.com) 浏览器访问: https://tieba.baidu.com 或者 https://tieba.baidu.com/index/
 tieba.cookie = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.cookie.js,type=http-request,pattern=^https?:\/\/tieba\.baidu\.com\/?.?
-
-# > 10000签到(wapside.189.cn:9001) 打开 APP 手动签到一次: 访问下右下角我>签到
-http-request ^https:\/\/wapside.189.cn:9001\/api\/home\/sign script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js, requires-body=true
-
-# > MeiTuan签到(i.meituan.com) 打开 APP 手动签到一次: 首页>红包签到
-meituan.cookie = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js,requires-body=true,type=http-request,pattern=^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/
 
 # > QQVideo签到(*.video.qq.com) 打开film.qq.com随便点开一个电影获取cookie
 http-request ^https:\/\/access.video.qq.com\/user\/auth_refresh script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js
 
 [MITM]
-hostname = %APPEND% *.video.qq.com,api.m.jd.com, manga.bilibili.com, www.52pojie.cn, *.iqiyi.com, tieba.baidu.com, wapside.189.cn:9001, i.meituan.com
+hostname = %APPEND% *.video.qq.com, api.m.jd.com, tieba.baidu.com
