@@ -23,6 +23,7 @@ http-request ^https:\/\/wapside.189.cn:9001\/api\/home\/sign script-path=https:/
 # > MeiTuan签到(i.meituan.com) 打开 APP 手动签到一次: 首页>红包签到
 meituan.cookie = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js,requires-body=true,type=http-request,pattern=^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/
 
+# > QQVideo签到(*.video.qq.com) 打开film.qq.com随便点开一个电影获取cookie
 http-request ^https:\/\/access.video.qq.com\/user\/auth_refresh script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js
 
 [MITM]
