@@ -12,3 +12,5 @@ JD618.Boom = type=cron,cronexp="0 10,12,18,20 * * *",script-path=https://raw.git
 
 # > tieba签到 (tieba.baidu.com)
 tieba = type=cron,cronexp="10,12,13 0 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js
+
+cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
