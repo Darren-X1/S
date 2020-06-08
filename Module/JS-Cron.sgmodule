@@ -1,5 +1,5 @@
-#!name=JS-Cron for UncleWang
-#!desc=JS-Cron for UncleWang：自用，仅收集自己需要的签到脚本
+#!name=JS-Cron
+#!desc=Cron定时签到脚本，自用
 [Script]
 # > JD签到 (api.m.jd.com)
 JD_DailyBonus = type=cron,cronexp="1 0,23 * * *",script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
