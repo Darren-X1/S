@@ -1,0 +1,8 @@
+#!name=Snell_MAC
+#!desc=Snell_MAC：Snell代理设置
+#!system=mac
+[Snell Server]
+interface = 0.0.0.0
+port = 9889
+psk = MrWcBDKnRwVtnw6n
+obfs = tls
