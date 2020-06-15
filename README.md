@@ -1,7 +1,7 @@
 机场分享
 ===
 ***
-## DlerCloud · [全局代理访问](https://dleris.best/auth/register?affid=56105) ·
+## DlerCloud · [全局代理访问](https://dlercloud.com/auth/register?affid=56105) ·
 ### 套餐介绍
 | Bronze | Silver |Gold|Platinum |Palladium|Diamond|
 | :------: | :-------: | :--------: | :-------: | :--------:| :-------:|
