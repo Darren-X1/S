@@ -4,5 +4,5 @@ payload:
   - DOMAIN-SUFFIX,pscdn.co
   - DOMAIN-SUFFIX,scdn.co
   - DOMAIN-SUFFIX,spoti.fi
-  - DOMAIN-SUFFIX.com
-  - DOMAIN-SUFFIXcdn.net
+  - DOMAIN-SUFFIX,potify.com
+  - DOMAIN-SUFFIX,potifycdn.net
