@@ -1,8 +1,0 @@
-payload:
-# > Spotify
-#   - USER-AGENT,*Spotify*
-  - DOMAIN-SUFFIX,pscdn.co
-  - DOMAIN-SUFFIX,scdn.co
-  - DOMAIN-SUFFIX,spoti.fi
-  - DOMAIN-SUFFIX,potify.com
-  - DOMAIN-SUFFIX,potifycdn.net
