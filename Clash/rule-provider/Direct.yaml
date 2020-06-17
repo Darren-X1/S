@@ -82,3 +82,4 @@ payload:
 - DOMAIN-SUFFIX,mzstatic.com,DIRECT
 
 - DOMAIN-SUFFIX,msftconnecttest.com,DIRECT
+- GEOIP,CN
