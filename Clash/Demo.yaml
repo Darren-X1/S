@@ -3,84 +3,120 @@ rule-providers:
     type: HTTP
     behavior: classical
     path: ./profiles/Direct.yaml
-    url: rule-url/Direct.yaml
+    url: https://raw.githubusercontent.com/Darren-X1/S/master/Clash/rule-provider/Direct.yaml
     interval: 86400 
   name: Proxy
     type: HTTP
     behavior: classical
     path: ./profiles/Proxy.yaml
-    url: rule-url/Proxy.yaml
+    url: https://raw.githubusercontent.com/Darren-X1/S/master/Clash/rule-provider/Proxy.yaml
     interval: 86400
   name: Adblock
     type: HTTP
     behavior: classical
     path: ./profiles/Adblock.yaml
-    url: rule-url/Adblock.yaml
+    url: https://raw.githubusercontent.com/Darren-X1/S/master/Clash/rule-provider/Adblock.yaml
     interval: 86400
   name: Domestic
     type: HTTP
     behavior: classical
     path: ./profiles/Domestic.yaml
-    url: rule-url/Domestic.yaml
+    url: https://raw.githubusercontent.com/Darren-X1/S/master/Clash/rule-provider/Domestic.yaml
     interval: 86400
   name: AsianTV
     type: HTTP
     behavior: classical
     path: ./profiles/AsianTV.yaml
-    url: rule-url/AsianTV.yaml
+    url: https://raw.githubusercontent.com/Darren-X1/S/master/Clash/rule-provider/AsianTV.yaml
     interval: 86400
   name: GlobalTV
     type: HTTP
     behavior: classical
     path: ./profiles/GlobalTV.yaml
-    url: rule-url/GlobalTV.yaml
+    url: https://raw.githubusercontent.com/Darren-X1/S/master/Clash/rule-provider/GlobalTV.yaml
     interval: 86400
   name: Netflix
     type: HTTP
     behavior: classical
     path: ./profiles/Netflix.yaml
-    url: rule-url/Netflix.yaml
+    url: https://raw.githubusercontent.com/Darren-X1/S/master/Clash/rule-provider/Netflix.yaml
     interval: 86400
   name: Spotify
     type: HTTP
     behavior: classical
     path: ./profiles/Spotify.yaml
-    url: rule-url/Spotify.yaml
+    url: https://raw.githubusercontent.com/Darren-X1/S/master/Clash/rule-provider/Spotify.yaml
     interval: 86400
   name: Telegram
     type: HTTP
     behavior: classical
     path: ./profiles/Telegram.yaml
-    url: rule-url/Telegram.yaml
+    url: https://raw.githubusercontent.com/Darren-X1/S/master/Clash/rule-provider/Telegram.yaml
     interval: 86400
   name: Speedtest
     type: HTTP
     behavior: classical
     path: ./profiles/Speedtest.yaml
-    url: rule-url/Speedtest.yaml
+    url: https://raw.githubusercontent.com/Darren-X1/S/master/Clash/rule-provider/Speedtest.yaml
     interval: 86400
   name: Microsoft
     type: HTTP
     behavior: classical
     path: ./profiles/Microsoft.yaml
-    url: rule-url/Microsoft.yaml
+    url: https://raw.githubusercontent.com/Darren-X1/S/master/Clash/rule-provider/Microsoft.yaml
     interval: 86400
   name: PayPal
     type: HTTP
     behavior: classical
     path: ./profiles/PayPal.yaml
-    url: rule-url/PayPal.yaml
+    url: https://raw.githubusercontent.com/Darren-X1/S/master/Clash/rule-provider/PayPal.yaml
     interval: 86400
   name: NeteaseMusic
     type: HTTP
     behavior: classical
     path: ./profiles/NeteaseMusic.yaml
-    url: rule-url/NeteaseMusic.yaml
+    url: https://raw.githubusercontent.com/Darren-X1/S/master/Clash/rule-provider/NeteaseMusic.yaml
     interval: 86400
   name: Apple
     type: HTTP
     behavior: classical
     path: ./profiles/Apple.yaml
-    url: rule-url/Apple.yaml
+    url: https://raw.githubusercontent.com/Darren-X1/S/master/Clash/rule-provider/Apple.yaml
     interval: 86400
+Rule:
+- RULE-SET,Direct,DIRECT
+- RULE-SET,Proxy,Proxy
+- RULE-SET,Adblock,REJECT
+- RULE-SET,Domestic,Domestic
+- RULE-SET,AsianTV,AsianTV
+- RULE-SET,GlobalTV,GlobalTV
+- RULE-SET,Netflix,Netflix
+- RULE-SET,Spotify,GlobalTV
+- RULE-SET,Telegram,proxy
+- RULE-SET,Speedtest,proxy
+- RULE-SET,Microsoft,Domestic
+- RULE-SET,PayPal,Domestic
+- RULE-SET,NeteaseMusic,NeteaseMusic
+- RULE-SET,Apple,Apple
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
