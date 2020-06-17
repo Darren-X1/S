@@ -146,7 +146,7 @@
 ^https?:\/\/u1.img.mobile.sina.cn\/public\/files\/image\/\d{3}x\d{2,4}.+(png|jpg|mp4) - reject
 
 # > 优酷
-.+&duration=\d{2}& - reject
+# .+&duration=\d{2}& - reject
 ^https?:\/\/(iyes|(api|hd).mobile).youku.com\/(adv|common\/v3\/hudong\/new) - reject
 ^https?:\/\/.+.mp4\?ccode=0902 - reject
 ^https?:\/\/.+.mp4\?sid= - reject
