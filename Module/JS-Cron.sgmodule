@@ -12,3 +12,4 @@ QQVideo= type=cron,cronexp="5 0 * * *", script-path=https://raw.githubuserconten
 
 # > JD水果
 JD_Fruit = type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_fruit.js
+JD_Pet = type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_pet.js
