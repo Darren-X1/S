@@ -5,3 +5,4 @@ DOMAIN-KEYWORD,rixcloud
 DOMAIN-SUFFIX,net-door.cc
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,onedrive.com
+IP-CIDR,8.8.8.8/32,no-resolve
