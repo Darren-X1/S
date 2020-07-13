@@ -11,4 +11,5 @@ DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,onedrive.com
 DOMAIN-SUFFIX,nexitally.com
 DOMAIN-SUFFIX,ark.to
+DOMAIN-SUFFIX,8.8.8.8/home
 # IP-CIDR,8.8.8.8/32,no-resolve
