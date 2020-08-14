@@ -11,5 +11,6 @@ Tieba.cookie = type=http-request,pattern=^https?:\/\/tieba\.baidu\.com\/?.?,scri
 # > QQVideo签到(*.video.qq.com) 打开film.qq.com随便点开一个电影获取cookie
 QQvideos.cookies= type=http-request,pattern=^https:\/\/access.video.qq.com\/user\/auth_refresh,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js
 
+JD_R8 = type=http-request,pattern=https://blindbox\.jd\.com/$,script-path=https://raw.githubusercontent.com/ZhiYi-N/Loon/master/jd_r8.js,script-update-interval=0
 [MITM]
-hostname = %APPEND% *.video.qq.com, api.m.jd.com, tieba.baidu.com
+hostname = %APPEND% *.video.qq.com, api.m.jd.com, tieba.baidu.com,blindbox.jd.com
