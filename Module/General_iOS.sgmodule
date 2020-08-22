@@ -37,6 +37,8 @@ hijack-dns = 8.8.8.8:53, 8.8.4.4:53
 tun-excluded-routes = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12
 tun-included-routes = 192.168.1.12/32
 
+http-api = DaRrEn@0.0.0.0:9998
+
 [Replica]
 hide-apple-request = 1
 hide-crash-reporter-request = 1
