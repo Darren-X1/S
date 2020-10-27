@@ -2,7 +2,7 @@
 #!desc=This is a series of JD tasks and includes BoxJs TestFlight scripts.
 #!tag = type=cron, cronexp=cronexample, wake-system=1, timeout=600, script-path=javescript
 #!GitHub:https://github.com/chiupam/Proxy/blob/master/Surge/jingdong.sgmodule
-#!Raw:https://raw.githubusercontent.com/chiupam/Proxy/master/Surge/jingdong.sgmodule
+#!Raw:https://raw.githubusercontent.com/Darren-X1/S/master/Module/JD
 [Script]
 # > 获取京东Cookie
 获取京东Cookie = type=http-request, pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
