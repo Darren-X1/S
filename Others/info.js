@@ -40,11 +40,11 @@ let resetLeft = getRmainingDays(resetDay);
   let infoList = [`${bytesToSize(used)} | ${bytesToSize(total)}`];
   
   if (resetLeft) {
-    infoList.push(`Reset${resetLeft}天`);
+    infoList.push(`流量重置：${resetLeft}天`);
   }
   if (expire) {
     if (/^[\d]+$/.test(expire)) expire *= 1000;
-    infoList.push(`${formatTime(expire)}`);
+    infoList.push(`${formatTime(expire)}到期`);
   }
     sendNotification(used/total, expire, infoList);
     let body = infoList.map(item => item + localProxy).join("\n");
