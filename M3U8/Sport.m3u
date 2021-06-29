@@ -16,7 +16,7 @@ http://117.169.124.46:6410/ysten-businessmobile/live/hdcctv05plus/1.m3u8
 #EXTINF:-1 tvg-id="a" tvg-name="migu" tvg-logo="https://www.miguvideo.com/mgs/player/prd/v_20210618163728_a97c0d5d/dist/assets/loading-start.png" group-title="咪咕体育",咪咕体育 A
 http://39.135.32.24:6610/000000001000/1000000001000004794/index.m3u8?i
 #EXTINF:-1 tvg-id="a" tvg-name="migu" tvg-logo="https://www.miguvideo.com/mgs/player/prd/v_20210618163728_a97c0d5d/dist/assets/loading-start.png" group-title="咪咕体育",咪咕体育 B
-http://39.134.65.162/PLTV/88888888/224/3221225611/index.m3u8
+http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226469/1.m3u8
 #EXTINF:-1 tvg-id="1987" tvg-name="五星体育频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/wuxingtiyu.png" group-title="上海体育",五星体育 A
 http://112.25.48.11/live/program/live/ssty/4000000/mnf.m3u8
 #EXTINF:-1 tvg-id="1987" tvg-name="五星体育频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/wuxingtiyu.png" group-title="上海体育",五星体育 B
