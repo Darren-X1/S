@@ -209,16 +209,12 @@ http://223.247.33.124:1935/live/yingshi/playlist.m3u8
 http://123.146.162.24:8017/iTXwrGs/800/live.m3u8
 #EXTINF:-1,重庆万州影视台
 http://wanzhoulive.cbg.cn:8017/d4ceB1a/1000/live.m3u8
-#EXTINF:-1,重庆万盛综合台
-http://qxlmlive.cbg.cn:1935/app_2/ls_40.stream/playlist.m3u8
 #EXTINF:-1,云南楚雄公共台
 http://hwzbout.yunshicloud.com/gbqei5/12661u.m3u8
 #EXTINF:-1,云南丽江公共台
 http://hwzbout.yunshicloud.com/mj1170/06qk26.m3u8
 #EXTINF:-1,云南普洱综合台
 http://hwzbout.yunshicloud.com/701aec/orx377.m3u8
-#EXTINF:-1,云南马关电视台
-http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel12/playlist.m3u8
 #EXTINF:-1,云南麻栗坡电视
 http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel18/playlist.m3u8
 #EXTINF:-1,四川新闻
@@ -373,8 +369,6 @@ http://222.178.181.121:12034/beibei01.m3u8
 http://stream.bzcm.net/4/sd/live.m3u8
 #EXTINF:-1,亳州新闻综合
 http://218.22.251.12:8001/tslslive/wT9aUpL/hls/live_sd.m3u8
-#EXTINF:-1,德州都市
-http://video.dztv.tv:1935/live/dspd_gq/playlist.m3u8
 #EXTINF:-1,迭部电视台
 http://117.156.28.119/270000001111/1110000154/index.m3u8
 #EXTINF:-1,高台电视台
@@ -481,8 +475,6 @@ http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8
 http://live.cgtn.com/1000/prog_index.m3u8
 #EXTINF:-1,CGTN-Doc
 https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
-#EXTINF:-1,法国-France24
-http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8#http://f24hls-i.akamaihd.net/hls/live/221193-b/F24_EN_LO_HLS/master.m3u8http://f24hls-i.akamaihd.net/hls/live/221193/F24_EN_LO_HLS/master.m3u8#http://f24hls-i.akamaihd.net/hls/live/221192/F24_FR_LO_HLS/master.m3u8
 #EXTINF:-1,韩国-Arirang
 http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 #EXTINF:-1,美国-Newsmax TV
