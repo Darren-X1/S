@@ -1,7 +1,7 @@
 #EXTM3U
-#EXTINF:-1,tvg-id="CCTV5 A" tvg-name="CCTV5 A" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="体育",CCTV5 A
+#EXTINF:-1,tvg-id="CCTV5" tvg-name="CCTV5" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="体育",CCTV5
 http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221227661/index.m3u8
-#EXTINF:-1,tvg-id="CCTV5 B" tvg-name="CCTV5 B" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="体育",CCTV5 B
+#EXTINF:-1,tvg-id="CCTV5" tvg-name="CCTV5" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="体育",CCTV5
 http://39.135.32.24:6610/000000001000/1000000001000004794/index.m3u8?i
 #EXTINF:-1,tvg-id="CCTV5 C" tvg-name="CCTV5 C" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="体育",CCTV5 C
 http://117.169.124.46:6410/ysten-businessmobile/live/hdcctv05plus/1.m3u8
