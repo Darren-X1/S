@@ -87,22 +87,14 @@ http://scgctvshow.sctv.com/hdlive/kangba/index.m3u8
 http://39.135.138.5:6610/PLTV/88888888/224/3221225730/2/index.m3u8
 #EXTINF:-1 tvg-id="55" tvg-name="陕西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanxi.png" group-title="卫视",陕西卫视
 http://39.135.138.5:6610/PLTV/88888888/224/3221225729/2/index.m3u8
-#EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png" group-title="央视",央视新闻·正直播A
-https://newsalic.v.myalicdn.com:443/news/news07_1/index.m3u8
-#EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png" group-title="央视",央视新闻·正直播B
+#EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png" group-title="央视",央视新闻·正直播
 http://39.135.138.5:6610/PLTV/88888888/224/3221225723/2/index.m3u8
 #EXTINF:-1 tvg-id="1872" tvg-name="北京纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijingjishi.png" group-title="央视",北京冬奥纪实 HD
 http://39.135.138.5:6610/PLTV/88888888/224/3221225676/2/index.m3u8
 #EXTINF:-1 tvg-id="7176" tvg-name="中视新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/中视新闻.png" group-title="港澳台",中视新闻 HD
 http://seb.sason.top/sc/zsxw_fhd.m3u8
-#EXTINF:-1 tvg-id="6143" tvg-name="台视新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/台视新闻.png" group-title="港澳台",台视新闻 HD
-http://seb.sason.top/sc/tsxw_fhd.m3u8
-#EXTINF:-1 tvg-id="6071" tvg-name="民视新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/FTVNews.png" group-title="港澳台",民视新闻台 HD
-http://seb.sason.top/sc/msxw_fhd.m3u8
 #EXTINF:-1 tvg-id="6071" tvg-name="民视新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/FTVNews.png" group-title="港澳台",民视新闻台 HD
 https://6.mms.vlog.xuite.net/hls/ftvtv/index.m3u8
-#EXTINF:-1 tvg-id="6171" tvg-name="寰宇新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/GlobalNews.png" group-title="港澳台",寰宇新闻台
-http://seb.sason.top/sc/hyxw.m3u8
 #EXTINF:-1 tvg-id="6069" tvg-name="东森新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCNews.png" group-title="港澳台",东森新闻 HD
 http://seb.sason.top/sc/dsxw_fhd.m3u8
 #EXTINF:-1 tvg-id="6073" tvg-name="TVBS新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBS新闻.png" group-title="港澳台",TVBS新闻台 HD
@@ -144,8 +136,6 @@ http://39.134.216.5/live.hcs.cmvideo.cn:8088/wd_r2/cctv/cctv5plusnew/2500/index.
 http://223.110.243.165/ott.js.chinamobile.com/PLTV/3/224/3221227631/index.m3u8
 #EXTINF:-1 tvg-id="6" tvg-name="CCTV5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="体育",CCTV5+ C
 http://ivi.bupt.edu.cn/hls/cctv5phd.m3u8
-#EXTINF:-1 tvg-id="6" tvg-name="CCTV5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="体育",CCTV5+ D
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225689/index.m3u8
 #EXTINF:-1 tvg-id="6" tvg-name="CCTV5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="体育",CCTV5+ E
 http://117.169.124.46:6410/ysten-businessmobile/live/hdcctv05plus/1.m3u8
 #EXTINF:-1 tvg-id="a" tvg-name="migu" tvg-logo="https://www.miguvideo.com/mgs/player/prd/v_20210618163728_a97c0d5d/dist/assets/loading-start.png" group-title="体育",咪咕体育 A
