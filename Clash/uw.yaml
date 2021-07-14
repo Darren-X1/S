@@ -11,31 +11,26 @@ experimental:
 clash-for-android:
   ui-subtitle-pattern: '[一-龥]{2,4}'
 proxies:
-- name: "SNELL"
-  type: snell
-  server: 172.16.211.253
-  port: 10000
-  psk: UnClEwAnG
-- name: "HTTP"
-  type: http
-  server: 172.16.211.253
-  port: 10001
-- name: "SOCKS"
-  type: socks5
-  server: 172.16.211.253
-  port: 10002
-  udp: true
 proxy-groups:
 - name: PROXY
   type: select
+  use:
+  - "Proxies" 
   proxies:
   - "SNELL"
   - "HTTP"
   - "SOCKS"
   - DIRECT
-  url: 'http://www.gstatic.com/generate_204'
-  interval: 300
-  
+proxy-providers:
+  "Proxies":
+    type: http
+    path: ./profiles/Proxies.yaml
+    url: "https://raw.githubusercontent.com/Darren-X1/S/master/Clash/uw.list"
+    interval: 3600
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
 rules:
 - MATCH,PROXY
 ...
