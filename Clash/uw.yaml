@@ -17,9 +17,6 @@ proxy-groups:
   use:
   - "Proxies" 
   proxies:
-  - "SNELL"
-  - "HTTP"
-  - "SOCKS"
   - DIRECT
 proxy-providers:
   "Proxies":
