@@ -25,7 +25,7 @@ proxy-providers:
   "Proxies":
     type: http
     path: ./profiles/Proxies.yaml
-    url: "https://raw.githubusercontent.com/Darren-X1/S/master/Clash/uw.list"
+    url: "https://cdn.jsdelivr.net/gh/Darren-X1/S@master/Clash/uw.list"
     interval: 3600
     health-check:
       enable: true
