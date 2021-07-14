@@ -32,6 +32,7 @@ proxy-groups:
   - "SNELL"
   - "HTTP"
   - "SOCKS"
+  - DIRECT
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
   
