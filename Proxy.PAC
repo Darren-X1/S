@@ -1,4 +1,3 @@
-
 function FindProxyForURL(url, host)
 
 {
