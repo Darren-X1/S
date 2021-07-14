@@ -1,0 +1,36 @@
+---
+port: 8888
+socks-port: 8889
+mixed-port: 8899
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:6170
+experimental:
+  ignore-resolve-fail: true
+clash-for-android:
+  ui-subtitle-pattern: '[一-龥]{2,4}'
+proxies:
+- name: "SOCKS"
+  type: socks5
+  server: 172.16.211.253
+  port: 10002
+  udp: true
+- name: "HTTP"
+  type: http
+  server: 172.16.211.253
+  port: 10001
+proxy-groups:
+- name: PROXY
+  type: fallback
+  proxies:
+  - DIRECT
+  - "SOCKS"
+  - "HTTP"
+  - REJECT
+  url: 'http://www.gstatic.com/generate_204'
+  interval: 300
+  
+rules:
+- MATCH,PROXY
+...
