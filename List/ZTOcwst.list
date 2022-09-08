@@ -1,21 +1,5 @@
-DOMAIN-SUFFIX,ithome.com
-DOMAIN-SUFFIX,4399.com
-DOMAIN-SUFFIX,bilibili.com
-DOMAIN-SUFFIX,youku.com
-DOMAIN-SUFFIX,iqiyi.com
-DOMAIN-SUFFIX,weibo.com
-DOMAIN-SUFFIX,news.163.com
-DOMAIN-SUFFIX,douban.com
-DOMAIN-SUFFIX,nga.cn
-DOMAIN-SUFFIX,oskarstalberg.com
-DOMAIN-SUFFIX,weread.qq.com
-DOMAIN-SUFFIX,smzdm.com
-DOMAIN-SUFFIX,baidu.com
-DOMAIN,v.qq.com
-DOMAIN,weread.qq.com
-DOMAIN,r.qq.com
-DOMAIN,haokan.baidu.com
-DOMAIN,smzdm.com
+# > RD-TCP
+DOMAIN,win.x-yq.cn
 
 # > Weibo
 DOMAIN-KEYWORD,weibo
@@ -27,24 +11,23 @@ DOMAIN-KEYWORD,zhihu
 DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
 DOMAIN-SUFFIX,vzuu.com
-
-
+# > Dler
 DOMAIN-SUFFIX,dler.cloud
-DOMAIN,win.x-yq.cn
 
-# DOMAIN-KEYWORD,glados
-# DOMAIN-KEYWORD,aaex
-# DOMAIN-KEYWORD,rixcloud
-# DOMAIN-KEYWORD,喵帕斯
-# DOMAIN-KEYWORD,ntt-co-jp
-# DOMAIN-KEYWORD,namecheap
-
-# DOMAIN-SUFFIX,xn--i2ru8q2qg.com
-# DOMAIN-SUFFIX,xeton.io
-# DOMAIN-SUFFIX,net-door.cc
-# DOMAIN-SUFFIX,nssurge.com
-# DOMAIN-SUFFIX,onedrive.com
-# DOMAIN-SUFFIX,nexitally.com
-# DOMAIN-SUFFIX,ark.to
-# DOMAIN-SUFFIX,namecheap.com
-# IP-CIDR,8.8.8.8/32,no-resolve
+DOMAIN-SUFFIX,ithome.com
+DOMAIN-SUFFIX,4399.com
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,news.163.com
+DOMAIN-SUFFIX,douban.com
+DOMAIN-SUFFIX,nga.cn
+DOMAIN-SUFFIX,oskarstalberg.com
+DOMAIN-SUFFIX,weread.qq.com
+DOMAIN-SUFFIX,smzdm.com
+DOMAIN-SUFFIX,baidu.com
+DOMAIN,v.qq.com
+DOMAIN,r.qq.com
+DOMAIN,weread.qq.com
+DOMAIN,haokan.baidu.com
+DOMAIN,smzdm.com
