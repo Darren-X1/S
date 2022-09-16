@@ -14,6 +14,10 @@ DOMAIN-SUFFIX,vzuu.com
 # > Dler
 DOMAIN-SUFFIX,dler.cloud
 
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,360buy.com
 
 DOMAIN-SUFFIX,aliyundrive.com
 DOMAIN-SUFFIX,ithome.com
