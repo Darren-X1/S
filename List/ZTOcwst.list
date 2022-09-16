@@ -30,6 +30,14 @@ DOMAIN-SUFFIX,3.cn
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,bbdstatic.com
 
+
+# > Weixin
+DOMAIN-KEYWORD,wechat
+DOMAIN-KEYWORD,weixin
+DOMAIN-KEYWORD,wx.qq.com
+DOMAIN,js.aq.qq.com
+
+
 DOMAIN-SUFFIX,ithome.com
 DOMAIN-SUFFIX,4399.com
 DOMAIN-SUFFIX,bilibili.com
