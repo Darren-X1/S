@@ -13,18 +13,20 @@ DOMAIN-SUFFIX,zhimg.com
 DOMAIN-SUFFIX,vzuu.com
 # > Dler
 DOMAIN-SUFFIX,dler.cloud
-# > taobao
+# > Alibaba
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,mmstat.com
+DOMAIN-SUFFIX,alibaba.com
+DOMAIN-SUFFIX,aliyundrive.com
 # > JD
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,360buy.com
 DOMAIN-SUFFIX,360buyimg.com
 DOMAIN-SUFFIX,3.cn
 
-DOMAIN-SUFFIX,aliyundrive.com
 DOMAIN-SUFFIX,ithome.com
 DOMAIN-SUFFIX,4399.com
 DOMAIN-SUFFIX,bilibili.com
