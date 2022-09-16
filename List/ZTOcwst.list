@@ -28,7 +28,7 @@ DOMAIN-SUFFIX,360buyimg.com
 DOMAIN-SUFFIX,3.cn
 # > Baidu
 DOMAIN-SUFFIX,baidu.com
-DOMAIN-SUFFIX,bbdstatic.com
+DOMAIN-SUFFIX,bdstatic.com
 
 
 # > Weixin
