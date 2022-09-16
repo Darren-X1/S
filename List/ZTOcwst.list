@@ -26,6 +26,9 @@ DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,360buy.com
 DOMAIN-SUFFIX,360buyimg.com
 DOMAIN-SUFFIX,3.cn
+# > Baidu
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,bbdstatic.com
 
 DOMAIN-SUFFIX,ithome.com
 DOMAIN-SUFFIX,4399.com
@@ -39,6 +42,7 @@ DOMAIN-SUFFIX,oskarstalberg.com
 DOMAIN-SUFFIX,weread.qq.com
 DOMAIN-SUFFIX,smzdm.com
 DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,bbdstatic.com
 DOMAIN,v.qq.com
 DOMAIN,r.qq.com
 DOMAIN,weread.qq.com
