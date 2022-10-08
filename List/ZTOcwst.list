@@ -29,7 +29,7 @@ DOMAIN-SUFFIX,3.cn
 # > Baidu
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,bdstatic.com
-
+DOMAIN-SUFFIX,bdimg.com
 
 # > Weixin
 DOMAIN-KEYWORD,wechat
