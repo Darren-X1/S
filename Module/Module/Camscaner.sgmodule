@@ -1,6 +1,8 @@
 #!name=CamScanner
 #!desc=CamScanner
+
 [Script]
-http-response https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js
+http-response https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/CamScanner.js
+
 [MITM]
-hostname = %APPEND% ap*.intsig.net
+hostname = ap*.intsig.net
