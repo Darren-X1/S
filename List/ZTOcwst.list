@@ -52,6 +52,9 @@ DOMAIN-SUFFIX,smzdm.com
 DOMAIN,v.qq.com
 DOMAIN,r.qq.com
 DOMAIN,weread.qq.com
-DOMAIN,haokan.baidu.com
-DOMAIN,smzdm.com
-DOMAIN,ifeng.com
+DOMAIN-SUFFIX,,haokan.baidu.com
+DOMAIN-SUFFIX,,smzdm.com
+DOMAIN-SUFFIX,,ifeng.com
+DOMAIN-SUFFIX,yuanshen.com
+DOMAIN-SUFFIX,mihoyo.com
+DOMAIN-SUFFIX,jpush.cn
