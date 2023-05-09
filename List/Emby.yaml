@@ -1,0 +1,9 @@
+payload:
+  # > Emby
+  - DOMAIN,v.x-yq.com
+  - DOMAIN,emby.aiyowei.ml
+  - DOMAIN,aiyowei.club
+  - DOMAIN,emby.st8.one
+  # - DOMAIN-SUFFIX32
+  - SRC-IP-CIDR,152.67.213.19/32
+  - SRC-IP-CIDR,150.230.32.62/32
