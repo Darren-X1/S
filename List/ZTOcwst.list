@@ -37,7 +37,22 @@ DOMAIN-KEYWORD,weixin
 DOMAIN-KEYWORD,wx.qq.com
 DOMAIN,js.aq.qq.com
 DOMAIN,mmbiz.qpic.cn
-
+# > Bilibili
+USER-AGENT,bili*
+DOMAIN-SUFFIX,acg.tv
+DOMAIN-SUFFIX,acgvideo.com
+DOMAIN-SUFFIX,b23.tv
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilibili.tv
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,biliapi.com
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,hdslb.com
+DOMAIN,upos-hz-mirrorakam.akamaized.net
+// Hong Kong, Macau, Taiwan
+USER-AGENT,bili-inter*
+DOMAIN,apiintl.biliapi.net
+# > ithome
 DOMAIN-SUFFIX,ithome.com
 DOMAIN-SUFFIX,4399.com
 DOMAIN-SUFFIX,bilibili.com
