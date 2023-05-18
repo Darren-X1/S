@@ -36,6 +36,7 @@ DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,bdimg.com
 DOMAIN-SUFFIX,haokan.baidu.com
 DOMAIN-SUFFIX,jomoxc.com
+DOMAIN-SUFFIX,bcebos.com
 # > Weixin
 DOMAIN-KEYWORD,wechat
 DOMAIN-KEYWORD,weixin
