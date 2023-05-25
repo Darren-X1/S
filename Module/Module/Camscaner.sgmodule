@@ -5,4 +5,4 @@
 http-response https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/CamScanner.js
 
 [MITM]
-hostname = ap*.intsig.net
+hostname = %APPEND% ap*.intsig.net
